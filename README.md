@@ -20,10 +20,12 @@ Clicking the button will update it the number in its inner text.
 
 We can run the project with `npm run dev` and visit it at <localhost:3000>.
 
-## But testing..
+## But testing
 
 The Vite template has no testing setup included. And you should probably test your app! I did the ugly work of getting the right packages together for you. Fly chicklet, fly. 🐥
 
 There are tests for the `App` and `Counter` components included. You can run the test suites with `npm run test`. To run the Jest in watch mode, you can run `npm run test:watch`.
+
+![test output](img/test-output.png)
 
 Happy Svelte-Vite-Jesting!
