@@ -22,10 +22,12 @@ We can run the project with `npm run dev` and visit it at <localhost:3000>.
 
 ## But testing
 
-The Vite template has no testing setup included. And you should probably test your app! I did the ugly work of getting the right packages together for you. Fly chicklet, fly. 🐥
+The Vite template has no testing setup included. Testing your app is advisable! I did the ugly work of getting the right packages together for you.
 
-There are tests for the `App` and `Counter` components included. You can run the test suites with `npm run test`. To run the Jest in watch mode, you can run `npm run test:watch`.
+There are tests for the `App` and `Counter` components included. You can run the test suites with `npm run test`. To run Jest in watch mode, you can run `npm run test:watch`.
 
 ![test output](img/test-output.png)
+
+You can get the full background on this set-up in the article I wrote - [Testing a Svelte app with Jest](https://www.roboleary.net/2021/11/18/svelte-app-testing-jest.html) - it also discusses the testing of a complete app. You may encounter some compatiability issues when you use third-party libraries as Jest does not support ES Modules (it is an experimental feature currently).
 
 Happy Svelte-Vite-Jesting!
